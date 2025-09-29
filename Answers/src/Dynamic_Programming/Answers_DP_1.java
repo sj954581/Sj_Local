@@ -1,42 +1,36 @@
-//1. Longest Common Subsequence (LCS)
-//    https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/
-package Dynamic_Programming;
+//1. Climbing stairs to reach the top
+//        https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair/
 
-import java.util.Arrays;
+package Dynamic_Programming;
+import java.lang.*;
+import java.util.*;
 
 public class Answers_DP_1 {
+        static int countWays(int n) {
 
-        // Returns length of LCS for s1[0..m-1], s2[0..n-1]
-        static int lcs(String S1, String S2) {
-            int m = S1.length();
-            int n = S2.length();
+            // variable prev1, prev2 - to store the
+            // values of last and second last states
+            int prev1 = 1;
+            int prev2 = 1;
 
-            // Initializing a matrix of size (m+1)*(n+1)
-            int[][] dp = new int[m + 1][n + 1];
-
-            // Building dp[m+1][n+1] in bottom-up fashion
-            for (int i = 1; i <= m; i++) {
-                for (int j = 1; j <= n; j++) {
-                    if (S1.charAt(i - 1) == S2.charAt(j - 1)) {
-                        dp[i][j] = dp[i - 1][j - 1] + 1;
-                    }
-                    else {
-                        dp[i][j] = Math.max(dp[i - 1][j],
-                                dp[i][j - 1]);
-                    }
-                }
+            for (int i = 2; i <= n; i++) {
+                int curr = prev1 + prev2;
+                prev2 = prev1;
+                prev1 = curr;
             }
 
-            // dp[m][n] contains length of LCS for S1[0..m-1]
-            // and S2[0..n-1]
-            return dp[m][n];
+            // In last iteration final value
+            // of curr is stored in prev.
+            return prev1;
         }
 
-
-        public static void main(String[] args)
-        {
-            String S1 = "AGGTAB";
-            String S2 = "GXTXAYB";
-            System.out.println( lcs(S1, S2));
+        public static void main(String[] args) {
+            int n = 4;
+            System.out.println(countWays(n));
         }
     }
+
+
+
+
+

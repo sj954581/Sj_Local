@@ -1,8 +1,2 @@
-1. Longest Common Subsequence (LCS)
-    https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
-2. Longest Increasing Subsequence (LIS)
-    https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
-3. Edit Distance
-    https://www.geeksforgeeks.org/dsa/edit-distance-dp-5/
-4. Minimum Partition
-    https://www.geeksforgeeks.org/dsa/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/
+1. Climbing stairs to reach the top
+    https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair/
