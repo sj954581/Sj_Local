@@ -1,5 +1,4 @@
-/*1. Climbing stairs to reach the top
-        https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair/ */
+/*2. https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair-using-step-1-2-3/ */
 
 package Dynamic_Programming;
 

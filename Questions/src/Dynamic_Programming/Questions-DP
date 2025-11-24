@@ -2,6 +2,14 @@
 https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/
 #################### DP Main Link ####################
 
-1. Climbing stairs to reach the top
-    QUE. - https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair/
-    ANS. -
+1. Climbing stairs to reach the top.
+    QUE - https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair/
+    ANS - https://github.com/sj954581/Sj_Local/blob/main/Answers/src/Dynamic_Programming/Answers_DP_1.java
+
+2. Count ways to reach the nth stair using step 1, 2 or 3.
+    QUE - https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair-using-step-1-2-3/
+    ANS - https://github.com/sj954581/Sj_Local/blob/main/Answers/src/Dynamic_Programming/Answers_DP_2.java
+
+3. Minimum Cost to Reach the Top.
+    QUE - https://www.geeksforgeeks.org/dsa/minimum-cost-to-reach-the-top-of-the-floor-by-climbing-stairs/
+    ANS - https://github.com/sj954581/Sj_Local/blob/main/Answers/src/Dynamic_Programming/Answers_DP_3.java
