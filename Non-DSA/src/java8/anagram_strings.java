@@ -20,6 +20,11 @@ public class anagram_strings {
         String str3 = Stream.of(str2.split(""))
                 .sorted().collect(Collectors.joining());
 
+        String str4 = Stream.of(str2.split(""))
+                .sorted(Comparator.reverseOrder()).collect(Collectors.joining());
+
+        System.out.println("Reverse String -> "+ str4);
+
         if(str1.equals(str2)){
             System.out.println("Anagram Strings -> " + str1 + " " + str2);
         }else{
