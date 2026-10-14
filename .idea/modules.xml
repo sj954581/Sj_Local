@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DSA/Answers/Answers.iml" filepath="$PROJECT_DIR$/DSA/Answers/Answers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Non-DSA/Non-DSA.iml" filepath="$PROJECT_DIR$/Non-DSA/Non-DSA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DSA/Questions/Questions.iml" filepath="$PROJECT_DIR$/DSA/Questions/Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/DSA/Answers/Answers.iml" filepath="$PROJECT_DIR$/src/DSA/Answers/Answers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/DSA/DSA.iml" filepath="$PROJECT_DIR$/src/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Non-DSA_New/Non-DSA_New.iml" filepath="$PROJECT_DIR$/src/Non-DSA_New/Non-DSA_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/DSA/Questions/Questions.iml" filepath="$PROJECT_DIR$/src/DSA/Questions/Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Sj_Local.iml" filepath="$PROJECT_DIR$/.idea/Sj_Local.iml" />
     </modules>
   </component>

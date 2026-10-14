@@ -1,3 +1,5 @@
+package javaCore;
+
 class Parent {
     void method()
     {

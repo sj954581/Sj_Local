@@ -1,3 +1,5 @@
+package javaCore;
+
 import java.lang.*;
 class StringBuilderDemo {
     public static void main(String args[])
