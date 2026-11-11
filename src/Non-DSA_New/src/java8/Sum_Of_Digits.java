@@ -14,6 +14,10 @@ public class Sum_Of_Digits {
                         collect(Collectors.summingInt(Integer::parseInt));
 
         int sum2 = Arrays.stream(k).sum();
+        int sum3 =
+        String.valueOf(i).chars()
+                .map(Character::getNumericValue).boxed()
+                .collect(Collectors.summingInt(Integer::intValue));
 
         Double avg1 = Stream.of(String.valueOf(i).split("")).
                 collect(Collectors.averagingDouble(Double::parseDouble));
@@ -22,6 +26,7 @@ public class Sum_Of_Digits {
 
         System.out.println(sum1);
         System.out.println(sum2);
+        System.out.println(sum3);
         System.out.println(avg1);
         System.out.println(avg2);
     }
